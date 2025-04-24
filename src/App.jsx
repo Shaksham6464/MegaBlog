@@ -8,8 +8,8 @@ import Footer from "./components/Footer/Footer";
 import './App.css'
 import {useDispatch} from 'react-redux'
 import  authService from './appwrite/auth'
-import { login } from '../../MegaBlog/src/store/authSlice'
-import { logout } from '../../MegaBlog/src/store/authSlice'
+import { login } from './store/authSlice'
+import { logout } from  './store/authSlice'
 import { Outlet } from 'react-router-dom';
 
 function App() {
